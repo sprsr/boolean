@@ -1,3 +1,3 @@
-iverilog -o counter -c file_list.txt
-vvp counter &
-gtkwave test.vcd &
+iverilog -o boolean -c file_list.txt
+vvp boolean &
+gtkwave boolean_test.vcd &
