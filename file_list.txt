@@ -1,3 +1,8 @@
 and/and.v
 or/or.v
+nor/nor.v
+nand/nand.v
+xor/xor.v
+xnor/xnor.v
+inverter/inverter.v
 boolean_tb.v
