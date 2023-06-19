@@ -5,7 +5,6 @@ module boolean_test;
         reg b = 0;
         wire y;
         AND_GATE(.a(a),.b(b), .y(y));
-        OR_GATE(.a(a),.b(b), .y(y));
         initial begin
 	    $dumpfile("test.vcd");
 	    $dumpvars(0,test);
@@ -13,3 +12,7 @@ module boolean_test;
         #10;
         a = 1;
         b = 1;
+        #10;
+        $finish;
+        end
+endmodule

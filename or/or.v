@@ -1,6 +1,6 @@
-# Module For Boolean Or
-# @sprsr
-#############################################################
+// Module For Boolean Or
+// @sprsr
+//////////////////////////////////////////////////
 module OR_GATE(input a, input b, output y);
-    assign y= a | b;
+    assign y = a | b;
 endmodule
